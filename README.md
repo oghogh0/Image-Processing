@@ -65,7 +65,7 @@ After applying the 'sharpen' filter:<br/>
 3. Edges: returns new image with each corresponding index with Sobel operator. <br/>
 
 Consider this image:<br/>
-<img src= "https://imgur.com/PXXTAXs.png" height="30%" width="30%"/>
+<img src= "https://imgur.com/PXXTAXs.png" height="40%" width="40%"/>
 
 After applying the 'edges' filter:<br/>
-<img src= "https://imgur.com/CjP324u.png" height="30%" width="30%"/>
+<img src= "https://imgur.com/CjP324u.png" height="40%" width="40%"/>
