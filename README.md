@@ -69,3 +69,23 @@ Consider this image:<br/>
 
 After applying the 'edges' filter:<br/>
 <img src= "https://imgur.com/CjP324u.png" height="40%" width="40%"/>
+
+
+<h2>Program walk-through PART 2</h2>
+<p align="left">
+More useful FILTERS & FUNCTIONS:<br/>
+
+1. split_color: splits image into red, green, blue<br/>
+2. recombine_greyscale: returns a new image with pixels of all input images combined<br/>
+3. filter_cascade: returns a new single filter such that applying that filter to an image produces the same
+output as applying each of the individual input filters in list in turn.<br/>
+
+Example:<br/>
+<img src= "https://imgur.com/byfEJsc.png" height="40%" width="40%"/>
+
+<p align="left">
+Implement SEAM CARVING:<br/>
+
+This function uses the seam carving technique to remove n columns from an image.<br/>
+Here are some helper functions involved in this process:<br/>
+1. 
