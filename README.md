@@ -1,6 +1,6 @@
 <h1>Image Processing Lab</h1>
 <h2>Description</h2>
-In this lab, <br />
+In this lab, I have explored different ways in manipulating images and applying filters that can alter the way an image is perceived. At the end, I show how I made my own custom feature.<br />
 
 <h2>Languages and Environments Used</h2>
 
@@ -114,6 +114,9 @@ This is a custom feature I made that draws multiple circles with varying radius 
 <img src= "https://imgur.com/3Gcmshq.png" height="40%" width="40%"/>
 
 <img src= "https://imgur.com/8rr9wz4.png" height="40%" width="40%"/>
+
+
+<img src= "https://imgur.com/vQTKwJx.png" height="40%" width="40%"/>
 
 <img src= "https://imgur.com/19U9OOj.png" height="40%" width="40%"/>
 
