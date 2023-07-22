@@ -86,6 +86,35 @@ Example:<br/>
 <p align="left">
 Implement SEAM CARVING:<br/>
 
-This function uses the seam carving technique to remove n columns from an image.<br/>
+This function uses the seam carving technique to remove n columns from an image. The goal is to scale down an image while preserving the perceptually important parts, such as removing the background but preserving the subjects.<br/>
+
 Here are some helper functions involved in this process:<br/>
-1. 
+1. greyscale_image_from_color_image: computes and returns a corresponding greyscale image of a coloured image. A colour pixel's equivalent greyscale value ‘v’ is computed using v = round(.299*r  +  .587*g  +  .114*b) <br/>
+2. compute_energy: computes a measure of "energy" of a greyscale image using the edges function.<br/>
+3. cumulative_energy_map: computes a "cumulative energy map" from the measure of energy. <br/>
+4. minimum_energy_seam: returns a list of the indices that correspond to pixels contained in the minimum-energy seam, given a cumulative energy map. This is found by backtracing from the bottom to the top of the cumulative energy map. The minimum value pixel in the bottom row of the cumulative energy map is the bottom pixel of the minimum seam. Then, the seam is traced back up to the top row of the cumulative energy map by following the adjacent pixels with the smallest cumulative energies.<br/>
+5. image_without_seam: return a new image containing all the pixels from the original image except those corresponding to the locations
+in the given list of indices of a coloured image. In other words, it removes the computed path.<br/>
+
+Consider this image:<br/>
+<img src= "https://imgur.com/hbXBREZ.png" height="40%" width="40%"/>
+
+After seam carving:<br/>
+<img src= "https://imgur.com/b3iHOkS.png" height="40%" width="40%"/>
+
+<h2>Program walk-through PART 3</h2>
+<p align="left">
+Create CUSTOM feature:<br/>
+This is a custom feature I made that draws multiple circles with varying radius above a right-angle triangle<br/>
+<img src= "https://imgur.com/HYW6yap.png" height="40%" width="40%"/>
+
+<img src= "https://imgur.com/CboRT4n.png" height="40%" width="40%"/>
+
+<h2>More Images</h2>
+<img src= "https://imgur.com/3Gcmshq.png" height="40%" width="40%"/>
+
+<img src= "https://imgur.com/8rr9wz4.png" height="40%" width="40%"/>
+
+<img src= "https://imgur.com/19U9OOj.png" height="40%" width="40%"/>
+
+<img src= "https://imgur.com/uby5Zjk.png" height="40%" width="40%"/>
