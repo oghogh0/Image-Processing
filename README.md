@@ -1,6 +1,6 @@
 <h1>Image Processing Lab</h1>
 <h2>Description</h2>
-In this lab, I have explored different ways in manipulating images and applying filters that can alter the way an image is perceived. In part 3 towards the end, I show how I made my own custom feature.<br />
+In this lab, I explored different ways in manipulating images and applying filters that can alter the way an image is perceived. In part 3 towards the end, I show how I made my own custom feature.<br />
 
 <h2>Languages and Environments Used</h2>
 
